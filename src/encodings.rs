@@ -3,8 +3,8 @@ pub mod hex;
 
 #[cfg(test)]
 mod tests {
-    use super::hex::*;
     use super::base64::*;
+    use super::hex::*;
 
     #[test]
     fn test_hex_to_base64() {
